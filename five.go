@@ -8,7 +8,9 @@ import (
 )
 
 func Five(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
-    fmt.Fprintf(w, "%d\n", 5)
+    for i := 0; i < 5; i++ {
+        fmt.Fprintf(w, "%d\n", 5)
+    }
 }
 
 func main() { 
