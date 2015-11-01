@@ -17,6 +17,6 @@ func main() {
     router := httprouter.New()
     router.GET("/api/five", Five)
 
-    log.Println("Listening on 127.0.0.1:5555...")
+    log.Println("Listening on 0.0.0.0:5555...")
     log.Fatal(http.ListenAndServe(":5555", router)) 
 }
