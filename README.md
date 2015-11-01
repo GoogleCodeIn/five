@@ -12,3 +12,5 @@ Five is currently accepted into YCombinator 2016 Summer batch.  We will focus on
 * Unfortunatly, Five has been discontinued.  Our burn rate (TM) was higher than anticipated due to webscale scaling.
 
 * For better startup saitre, see [Vooza](http://vooza.com/).
+
+* Five will now five times more.
